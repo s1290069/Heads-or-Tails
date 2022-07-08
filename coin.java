@@ -24,9 +24,9 @@ System.out.println("Round "+(i+1)+": "+ coin);
 }
 int a=3-cnt;
 System.out.println("Heads:"+ cnt+", Tails: "+a);
-if(cnt>a)System.out.println("You won!");
+if(cnt>a)System.out.println(n+" won!");
 else {
-    System.out.println("You lost.");
+    System.out.println(n+" lost.");
 }
 }
 
