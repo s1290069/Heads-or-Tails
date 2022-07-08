@@ -1,17 +1,15 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class coin{
 
-
-
-
-
-
-
-
-
-
 public static void main(String[] args){
+    Scanner sc=new Scanner(System.in);
+    
+    System.out.println("Who are you?");
+    System.out.print(">");
+    String n = sc.nextLine();
+    System.out.println("Hello, "+n+"!");
     String[] hand = {"Hands","Tails"};
     Random ram=new Random();
 int cnt = 0;
