@@ -26,12 +26,11 @@ System.out.println("Round "+(i+1)+": "+ coin);
 }
 int a=3-cnt;
 System.out.println("Heads:"+ cnt+", Tails: "+a);
-
-
-
+if(cnt>a)System.out.println("You won!");
+else {
+    System.out.println("You lost.");
 }
-
-
+}
 
 
 
